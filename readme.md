@@ -3,8 +3,9 @@ Un simple test pour la lib leaflet et la création de visualiseurs(?) d'images e
 
 Marche à suivre pour voir quelque-chose à l'ecran....
 * clonez le repo sur votre machine
-* ouvrez un terminal dans le dossier et installez les dépendances 
+* ouvrez un terminal dans le dossier /leafback et /tool et installez les dépendances 
 ```npm install```
+dans les 2 dossiers.
 
 Pour commencer, il faut des images à visualiser, de préférence en hautes résolutions (par exemple, si vous aimez l'espace: http://www.eso.org/public/images/)
 * Téléchargez les images dans un dossier sur votre machine
