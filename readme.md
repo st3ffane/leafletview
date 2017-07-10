@@ -10,7 +10,7 @@ dans les 2 dossiers.
 Pour commencer, il faut des images à visualiser, de préférence en hautes résolutions (par exemple, si vous aimez l'espace: http://www.eso.org/public/images/)
 * Téléchargez les images dans un dossier sur votre machine
 * ouvrez un terminal dans le dossier /tool
-* lancer le script "tilify.js" pour préparer les images -vérifiez que le dossier leafback/public/images existe, sinon, créez le
+* lancer le script "tilify.js" pour préparer les images -vérifiez que le dossier leafback/public/images/dzi existe, sinon, créez le
 auparavant
 ```
 node tilify.js path/to/your/image.[png|jpeg|tiff]
