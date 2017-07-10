@@ -25,3 +25,4 @@ Le script ajoutera un nouveau dossier dans '/leafback/public/images/dzi/nom-de-l
 
 Note:
   Il se peut que j'ai oublié de --save quelques dependances... 
+  si vous lancer le script tilify.js avec plusieurs images, un bouton en haut a gauche dans l'UI de la page web permet d'avoir la liste de toutes les images presentes sur le site
