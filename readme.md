@@ -1,8 +1,8 @@
 # LEAFLET TEST
 Un simple test pour la lib leaflet et la création de visualiseurs(?) d'images en haute définition.
 
-Marche à suivre pour voir quelquechose à l'ecran....
-* clonez le repo sur votre macine
+Marche à suivre pour voir quelque-chose à l'ecran....
+* clonez le repo sur votre machine
 * ouvrez un terminal dans le dossier et installez les dépendances 
 ```npm install```
 
