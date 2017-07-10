@@ -1,6 +1,9 @@
 var VIEWER = (function(){
 
 function loadDZIDescriptor(name){
+  if(!name) return Promise.reject("no datas provided");
+
+  
   return new Promise( (resolve, reject)=>{
       var xhr = new  XMLHttpRequest();
       xhr.onload = function(){
