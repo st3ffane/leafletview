@@ -13,7 +13,7 @@ Pour commencer, il faut des images à visualiser, de préférence en hautes rés
 ```
 node tilify.js path/to/your/image.[png|jpeg|tiff]
 ```
-Le script ajoutera un nouveau dossier dans 'leaflet/leafback/public/images/dzi' qui contiend les tiles générées.
+Le script ajoutera un nouveau dossier dans '/leafback/public/images/dzi' qui contiend les tiles générées.
 * lancer le serveur express 
   * ouvrez un terminal dans /leafback
   ```
@@ -23,4 +23,4 @@ Le script ajoutera un nouveau dossier dans 'leaflet/leafback/public/images/dzi' 
 * profitez.
 
 Note:
-  Il se peut que j'ai oublié des --save quelques dependances... 
+  Il se peut que j'ai oublié de --save quelques dependances... 

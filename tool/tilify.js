@@ -39,6 +39,7 @@ console.log("Processing image, please wait...");
 //load l'image
 
 sharp(image)
+  //.png()
   .tile(256).toFile(`${dist}/${name}/output.dzi`, function(err, info) {
   // open xml file and add maxzoom attribute to size
   fs.readFile(`${dist}/${name}/output.dzi.dzi`, (err, data)=>{

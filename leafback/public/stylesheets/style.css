@@ -277,3 +277,13 @@ view a{text-decoration: none;}
 }
 
 
+/* HACK evite de redimensionner (stretch) les tiles */
+.leaflet-tile{
+  
+    object-fit: contain;
+    object-position: 0px 0px;
+    width: auto!important;
+    height: auto!important;
+}
+
+

@@ -68,8 +68,8 @@ function loadDZIDescriptor(name){
         current_zoom++;
         
 
-
-      map.setView([0.25, 0.25], current_zoom);
+      map.setView(map.unproject([width/2, height/2], maxzoom),current_zoom);
+      //map.setView([0, 0],current_zoom);
       
       /*var southWest = map.unproject([1, width - 1], maxzoom);
       var northEast = map.unproject([height - 1, 1], maxzoom);*/
