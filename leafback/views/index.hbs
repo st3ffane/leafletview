@@ -21,9 +21,20 @@
     
   </div>
 
-  <!-- Use any element to open the sidenav -->
-  <a id="menu_btn" class="btn btn-floating btn-lg red"  onclick="VIEWER.openNav()">&nbsp;</a>
-
+  <!-- Use any element to open the sidenav 
+  <a id="menu_btn" class="btn btn-floating btn-lg red"  onclick="VIEWER.openNav()">&nbsp;</a>-->
+  <nav id="menu_btn" class="menu">
+    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+    <label class="menu-open-button" for="menu-open">
+            <span class="hamburger hamburger-1"></span>
+            <span class="hamburger hamburger-2"></span>
+            <span class="hamburger hamburger-3"></span>
+    </label>
+            <a href="#" class="menu-item" id="menu-image" title="Show all images"> <i class="fa fa-file-image-o"></i> </a>
+            <a href="#" class="menu-item" title="Preprocess settings"> <i class="fa fa-cogs"></i> </a>
+            <a href="#" class="menu-item" title="About us..."> <i class="fa fa-info"></i> </a>
+            <a href="#" class="menu-item" title="Keep in touch"> <i class="fa fa-envelope"></i> </a>
+  </nav>
 
     <div id="spinner" class="spinner">
       <div class="double-bounce1"></div>
@@ -35,14 +46,33 @@
 
 <script src="javascripts/viewer.js"></script>
 <script>
+(function(){
+  
+
   //load la premiere image de la liste
   window.addEventListener("load", function(){
+
+    var menu = document.getElementById("menu-open");
+    //qqs events
+    document.getElementById("menu-image").addEventListener("click",()=>{
+      menu.checked=false;
+      VIEWER.openNav();
+
+    });
+    
+
+
     VIEWER.loadImage('{{dirs.[0]}}').then (dt=>{
           //all is good...
       }).catch(err=>{
         alert ("Erreur lors du chargement du descriptor");
       })
-  })
+  });
+
+
+   
+})();
+  
 
 </script>
 
