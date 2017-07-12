@@ -15,11 +15,7 @@ auparavant
 ```
 node tilify.js path/to/your/image.[png|jpeg|tiff]
 ```
-<<<<<<< HEAD
 Le script ajoutera un nouveau dossier dans '/leafback/public/images/dzi' qui contiend les tiles générées.
-=======
-Le script ajoutera un nouveau dossier dans '/leafback/public/images/dzi/nom-de-l-image' qui contiend les tiles générées.
->>>>>>> 9c6e7da7b9ee73118027bd97615a7e61e58acba2
 * lancer le serveur express 
   * ouvrez un terminal dans /leafback
   ```
