@@ -27,3 +27,7 @@ Le script ajoutera un nouveau dossier dans '/leafback/public/images/dzi' qui con
 Note:
   Il se peut que j'ai oublié de --save quelques dependances... 
   si vous lancer le script tilify.js plusieurs fois (avec des images différentes), un bouton en haut a gauche dans l'UI de la page web permet d'avoir la liste de toutes les images presentes sur le site
+
+Process-tiles:
+Tentative (optimiste) pour faire du traitement sur les tiles avant le rendu
+
