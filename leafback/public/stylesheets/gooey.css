@@ -191,11 +191,14 @@
 
 a[title]:hover:after {
   content: attr(title);
+  text-align: center;
   color: #E3E3E3;
   position: absolute;
-  left: 0;
-  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60px;
   z-index: 20;
   white-space: nowrap;
   font-size:12px;
+  
 }
